@@ -33,6 +33,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
   }
 
   generateData(): void {
+    console.log('generateData() is called by emit output');
     this.cluster1 = [];
     this.cluster2 = [];
     this.cpu = { used: 0, available: 0 };

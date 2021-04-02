@@ -9,6 +9,7 @@ import { MetricComponent } from './metric/metric.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NodesComponent } from './nodes/nodes.component';
 import { NodesRowComponent } from './nodes-row/nodes-row.component';
+import { NodeDetailComponent } from './node-detail/node-detail.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NodesRowComponent } from './nodes-row/nodes-row.component';
     NavbarComponent,
     MetricComponent,
     NodesComponent,
-    NodesRowComponent
+    NodesRowComponent,
+    NodeDetailComponent
   ],
   imports: [
     BrowserModule,
